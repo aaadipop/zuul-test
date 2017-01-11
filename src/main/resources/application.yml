@@ -1,0 +1,14 @@
+zuul:
+  routes:
+    resource:
+      path: /resource/**
+      url: https://media.naturspot.ro
+    
+    
+      
+spring:
+  jmx:
+    enabled: false
+  http:
+    multipart:
+      max-file-size: 25MB
